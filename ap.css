@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerr{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.headerr img{
+    width: 100px;
+
+}
+
+.search input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search button{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.headerr{
+    list-style: none;
+    
+}
+
+.headerr .dndk{
+    display: flex;
+    margin-left: 100px;
+}
+
+.headerr #login button{
+    background-color: orange;
+        color: white;
+        width: 60px;
+        height: 40px;
+        border-radius: 7px;
+        font-weight: bold;
+        
+}
+
+.headerr #create button{
+    background-color: orange;
+        color: white;
+        width: 60px;
+        height: 40px;
+        border-radius: 7px;
+        font-weight: bold;
+}
+
+.nav2{
+    height: 60px;
+    background-color: #183544;
+    
+}
+
+.nav2 .menu{
+    display: flex;
+    list-style: none;
+    line-height: 60px;
+    margin-left: 36%;
+}
+
+.nav2 .menu a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav2 .menu a:hover{
+    background-color: orange;
+}
+
+.nav2 .submenu{
+    background: #fff;
+    position: absolute;
+    list-style: none;
+    display: none;
+}
+
+.nav2 .submenu a{
+    color: black;
+    list-style: none;
+    border-bottom: 1px solid rgb(93, 158, 139);
+}
+
+.nav2 li:hover .submenu {
+    display: block;
+}
+.nav2 .submenu a:hover {
+    background-color: aqua;
+    
+}
+
+section {
+    height: 400px;
+    margin-left: 7.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+section img{
+    height: 400px;
+}   
+
+section .anh2{
+    width: 600px;
+    padding-left: 15px;
+}
+
+.dth img:hover{
+    transform: scale(1.01);
+}
+
+.dth2 img:hover{
+    transform: scale(1.01);
+}
+
+
+main h1{
+    text-align: center;
+    color: #b82828;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+
+main .album {
+    display: flex;
+    margin-left: 230px;
+}
+
+main .album h3{
+    margin-left: 110px;
+    text-transform: capitalize;
+}
+
+main .album h4{
+    margin-left: 110px;
+    text-transform: capitalize;
+}
+
+main .album .mua{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: 110px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+main .album2 {
+    display: flex;
+    margin-left: 230px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+main .album2 h3{
+    margin-left: 110px;
+    text-transform: capitalize;
+}
+
+main .album2 h4{
+    margin-left: 110px;
+    text-transform: capitalize;
+}
+
+main .album2 .mua2{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: 110px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+main .banersau{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+main .banersau img{
+    width: 1348px;
+    height: 100px;
+}
+
+
+footer{
+    background-color: #b1b4b6;
+    margin-top: 100px;
+}
+
+footer .footer{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer .foot{
+    display: flex;
+}
+
+footer .anhfooter img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+footer .muclink{
+    display: flex;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+footer .muclink a{
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+footer .muclink ul{
+    list-style: none;
+
+}
